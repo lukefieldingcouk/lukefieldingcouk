@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\TestForm;
+use DB;
 
 class TestFormController extends Controller
 {
@@ -25,4 +26,12 @@ class TestFormController extends Controller
 
         return redirect()->back();
     }
+
+    public function show()
+    {
+        $entry = DB::table('FormTable')->select('id', 'name', 'number')->get();
+
+        return view('formdata', ['entry' => $entry]);
+    }
+
 }
