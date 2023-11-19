@@ -47,7 +47,7 @@
                         <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Form Data</h2>
 
                         <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                            Table showing data entered into the test form.
+                            Tablee showing data entered into the test form.
                         </p>
                     </div>
                 </a>
