@@ -13,7 +13,16 @@
         @vite('public/js/app.js')
     </head>
 
+
+
+<!-- PADDING -->
+<div class="p-40">
+
 <body>
+
+
+
+
 
     <main>
         @yield('content')
@@ -35,3 +44,6 @@
         </div>
     </div>
 </footer>
+
+<!-- CLOSING PADDING -->
+</div>

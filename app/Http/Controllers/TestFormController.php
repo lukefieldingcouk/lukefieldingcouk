@@ -23,7 +23,7 @@ class TestFormController extends Controller
         $TestFormEntry->number = $request->input('number');
         $TestFormEntry->save();
  
-        return redirect()->back();
+        return redirect('testform')->with('status', 'Entry submitted.');
     }
 
     public function show()
